@@ -1,3 +1,14 @@
+" syntax highlighting
+syntax on
+
+" show line number
+set number
+
+" wrap navigation around line
+" <,> cursor keys used in normal and visual mode
+" [,] cursor keys used in insert mode 
+set whichwrap+=<,>,h,l,[,]
+
 " Set 4 spaces globally & make indenting sane.
 " ... Note that 'set paste' destroys indentation.
 "
